@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inicio{
+    font-size: 20px;
+    margin: 8px 5px 0px 5px;
+}
+
+.espaçamento{
+    margin: 0px 32px;
+}
+
+.psicologaEmanuelly{
+    font-size: 26px;
+}
+
+.agendamentosEndereçoSobre{
+    font-size: 19px;
+}
+
+.sobre{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 26px;
+}
+
+.paragrafos{
+    text-align: center;
+    font-style: italic;
+
+}
+
+.paragrafosPerfil{
+    padding: 30px;
+}
+
+.fotopsicologa{
+    margin: 40px 0;
+}
+
+.enderecoConsultorio{
+    margin-bottom: 30px;
+}
+
+.iframe{
+    border-radius: 1rem;
+
+}
+
+.agendamento{
+    margin-top: 0;
+}
+
+.marcaConsultas{
+    text-align: center;
+    font-size: 20px;
+}
+
+.contatodiv{
+    margin-bottom: 50px;
+
+}
+
+.fim{
+
+    margin-bottom: 0px;
+    padding-bottom: 0;
+
+}
+
+a{
+    text-decoration: none;
+    color: black
+}
+
+
+
+
+@media (max-width: 1000px ) {
+
+    .perfil{
+        display: block;
+        flex-direction: column;
+    }
+
+    .perfilFoto{
+        margin: 0px;
+        height: 400px;
+    }
+    
+}
